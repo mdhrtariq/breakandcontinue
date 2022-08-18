@@ -4,18 +4,22 @@ public class Main {
     {
   int i = 10;
   int j = 5;
-  for(i=0;i<10;i++){
-          if(i==6)
-          {
-              continue;
-          }
-          if(i>=9)
+  for(i=0;i<5;i++){
+      for(j=0;j<=i;j++){
+          if(i==2)
           {
               break;
           }
-          System.out.println(i);
+          if(j==3)
+          {
+              continue;
+          }
+          System.out.print(j+"  ");
       }
-
+      {
+          System.out.println();
+      }
   }
   }
 
+}
